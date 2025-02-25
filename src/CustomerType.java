@@ -4,13 +4,13 @@ enum CustomerType {
     PREMIUM(0.1),
     VIP(0.2);
 
-    private float discount;
+    private double discount;
 
-    private CustomerType(float discount){
+    private CustomerType(double discount){
         this.discount = discount;
     }
 
-    public float getDiscount() {
+    public double getDiscount() {
         return discount;
     }
 }
